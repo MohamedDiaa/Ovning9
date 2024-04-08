@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+}
+
+div {
+
+    margin: auto;
+    display: flex;
+    align-content: center;
+    width: 100%;
+}
