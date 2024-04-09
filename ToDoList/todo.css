@@ -9,3 +9,8 @@ div {
     align-content: center;
     width: 100%;
 }
+
+ul {
+
+    list-style: none;
+}
