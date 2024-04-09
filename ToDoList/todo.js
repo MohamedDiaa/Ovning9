@@ -11,10 +11,9 @@ function addAction() {
     let value = inputField.value;
 
     console.log(value);
-    itemsList.insertAdjacentHTML(`beforeend`,`<li id="item${id}">${value}</li>`);
+    itemsList.insertAdjacentHTML(`beforeend`,`<li id="item${id}">${value}</li><br>`);
  
     const item = document.getElementById(`item${id}`);
-
     item.addEventListener('click', itemClicked);
 }
 
@@ -23,5 +22,5 @@ addBtn.addEventListener('click', addAction);
 
 function itemClicked(item) {
     console.log("here cliicked");
-    
+
 }
